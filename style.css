@@ -1,10 +1,19 @@
 body{
-    background-color: rgb(153, 24, 136);
+    background-color: 
+    rgb(153, 24, 136);
+    font-family: Arial, sans-serif
+
 }
 head{
-    background-color: rgb(69, 69, 226);
+    background-color: 
+    rgb(69, 69, 226);
+    text-aling: center;
+    padding: 30px;
 }
-main{
+
+h1 {
+    font-size:
+}
     background-color: rgb(104, 182, 156);
 }
 section{
