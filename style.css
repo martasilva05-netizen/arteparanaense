@@ -2,11 +2,53 @@ body{
     background-color: 
     rgb(153, 24, 136);
     font-family: Arial, sans-serif
+}
+
+header {
+    background-color: #6b2d5c;
+    color: white;
+    padding: 30px;
 
 }
 
-head{
-    background-color: 
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    color: #bd2d5c;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+    nav {
+        margin-top: 20px
+    }
+
+    nav a {
+        color: white;
+        text-decoration: nome;
+        background-color: #9b4d83;
+        padding: 10px 15px;
+        border-radius: 8px;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    nav a: hove {}
+
+h1 {
+    font-size: 30px;
+
+    h2 { 
+     color: 
+
+    }x;
+    }
+
+ackground-color: 
     rgb(69, 69, 226);
     text-aling: center;
     padding: 30px;
@@ -19,3 +61,26 @@ h1 {
      color: 
 
     }
+    nav a : hover {
+        background-color: #c77dff;
+    }
+
+    main {
+        width: 80%;
+        margin: auto;
+    }
+
+    section {
+        background-color: white;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        margin: auto;
+        border-radius: 12px;
+    
