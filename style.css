@@ -43,7 +43,18 @@ h1 {
     font-size: 30px;
 
     h2 { 
-     color: 
+     color: body{
+    background-color: rgb(161, 222, 243);
+}
+head{
+    background-color: rgb(160, 220, 240);
+}
+main{
+    background-color: rgb(136, 223, 194);
+}
+section{
+    background-color: rgb(186, 144, 226);
+}
 
     }x;
     }
@@ -56,31 +67,23 @@ ackground-color:
 
 h1 {
     font-size: 30px;
+}
+card {
+    background-color: #f3d9fa;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #6b2d5c;
+    border-radius: 10px;
+}
 
-    h2 { 
-     color: 
+card h3 {
+    margin-top: 0;
+}
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center
+    padding: 20px;
+    margin-top: 30px;
 
-    }
-    nav a : hover {
-        background-color: #c77dff;
-    }
-
-    main {
-        width: 80%;
-        margin: auto;
-    }
-
-    section {
-        background-color: white;
-        margin: 20px 0;
-        padding: 20px;
-        border-radius: 12px;
-    }
-
-    img {
-        width: 100%;
-        max-width: 600px;
-        display: block;
-        margin: auto;
-        border-radius: 12px;
-    
+}
