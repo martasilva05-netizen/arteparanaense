@@ -84,3 +84,22 @@ footer{
     margin-top: 30px;
     
 }
+
+button {
+    background-color: #111111;
+    color:#c77dff;
+    border: nome;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d1bdd6;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
