@@ -86,16 +86,16 @@ footer{
 }
 
 button {
-    background-color: #111111;
+    background-color: #0a0a0a;
     color:#c77dff;
-    border: nome;
+    border: none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #d1bdd6;
+    background-color: #f3d9fa;
 }
 
 .curtir {
