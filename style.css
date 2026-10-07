@@ -1,13 +1,29 @@
+:root{
+--cor-fundo:#3b3b31;
+--cor-texto: #dac7c7;
+--cor-principal: #e018ae;
+--cor-segundaria: #9b4d83;
+--cor-hover: #4c226d;
+--cor-superficie: rgb(141, 130, 130);
+--cor-card: #32093d;
+--cor-legenda: #7a6060;
+--cor-clara: rgb(219, 151, 151);
+--cor-rodape: #cc2424;
+
+
+
+}
+
 body {
-    background-color: #f4f1ea;
-    color: #222222;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #6b2d5c;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -17,7 +33,7 @@ h1 {
 }
 
 h2 {
-    color: #6b2d5c;
+    color: var(--cor-principal);
 }
 
 p {
@@ -30,9 +46,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #9b4d83;
+    background-color: var(--cor-segundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -40,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #c77dff;
+    background-color: var(--cor-hover);
 }
 
 main {
@@ -49,7 +65,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -66,15 +82,15 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: #f3d9fa;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #6d2d5c;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
 }
 
@@ -83,8 +99,8 @@ figcaption {
 }
 
 footer {
-    background-color: #222222;
-    color: white;
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
@@ -92,8 +108,8 @@ footer {
 }
 
 button {
-    background-color: #0a0a0a;
-    color: #c77dff;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -101,7 +117,7 @@ button {
 }
 
 button:hover {
-    background-color: #f3d9fa;
+    background-color: var(--cor-hover);
 }
 
 .curtir {
