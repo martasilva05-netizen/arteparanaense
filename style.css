@@ -1,14 +1,14 @@
 :root{
---cor-fundo:#3b3b31;
---cor-texto: #dac7c7;
---cor-principal: #e018ae;
---cor-segundaria: #9b4d83;
---cor-hover: #4c226d;
---cor-superficie: rgb(141, 130, 130);
---cor-card: #32093d;
---cor-legenda: #7a6060;
---cor-clara: rgb(219, 151, 151);
---cor-rodape: #cc2424;
+--cor-fundo:#c0c02e;
+--cor-texto: #f0dcdc;
+--cor-principal: #0c0a0b;
+--cor-segundaria: #f309ad;
+--cor-hover: #870ce6;
+--cor-superficie: rgb(255, 11, 11);
+--cor-card: #b00edd;
+--cor-legenda: #ec8f8f;
+--cor-clara: rgb(3, 0, 0);
+--cor-rodape: #5c5757;
 
 
 
