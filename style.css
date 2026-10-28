@@ -1,17 +1,22 @@
 :root{
---cor-fundo:#c0c02e;
---cor-texto: #f0dcdc;
+--cor-fundo:#eeeee2;
+--cor-texto: #ca8787;
 --cor-principal: #0c0a0b;
---cor-segundaria: #f309ad;
---cor-hover: #870ce6;
---cor-superficie: rgb(255, 11, 11);
---cor-card: #b00edd;
+--cor-segundaria: #504d4f;
+--cor-hover: #bf94e0;
+--cor-superficie: rgb(153, 51, 51);
+--cor-card: #71477c;
 --cor-legenda: #ec8f8f;
---cor-clara: rgb(3, 0, 0);
---cor-rodape: #5c5757;
+--cor-clara: rgb(119, 0, 0);
+--cor-rodape: #f53535;
 
-
-
+}
+.tema-escuro{
+    --cor-fundo:#121212;
+    --cor-texto:#f5f5f5;
+    --cor-principal:#d7a6ca;
+    --cor-superficie:#1e1e1e;
+    --cor-card:#2b2530;
 }
 
 body {
