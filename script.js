@@ -7,12 +7,11 @@ botoesCurtir.forEach(function(botaoCurtir){
         if(curtiu === false){
             contador.textContent++;
             curtiu = true; 
-        }alse{
-                contador.textContent--;
-                curtiu = false;
-            }
-
-            }
+        } else { // <-- Estava escrito "alse" aqui
+            contador.textContent--;
+            curtiu = false;
+        }
+    }
 });
 
 const btnTema = document.querySelector(".btn-tema");
